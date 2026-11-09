@@ -72,8 +72,6 @@ MainActivity / Navigation Compose
 5. Clique em **Run 'app'**.
 6. Conceda acesso à internet ao emulador. A API pública é consultada quando o app abre a previsão.
 
-> **Importante sobre o wrapper:** este ZIP inclui a configuração do Gradle Wrapper, mas **não** o arquivo binário `gradle-wrapper.jar`, pois não foi possível obtê-lo neste ambiente. O Android Studio pode importar o projeto e usar uma instalação de Gradle 8.9; alternativamente, gere o wrapper com `gradle wrapper --gradle-version 8.9` em uma máquina que tenha Gradle instalado.
-
 ## 8. Testes manuais recomendados
 - Abrir pela primeira vez: Splash → introdução → Início.
 - Marcar "Não mostrar novamente", fechar/reabrir: Splash → Início.
@@ -94,17 +92,3 @@ MainActivity / Navigation Compose
 - `docs/prints/06-salvos.png`
 - `docs/prints/07-sobre.png`
 - `docs/prints/08-detalhe.png`
-
-Não foram inventadas capturas de execução. Os prints acima devem ser produzidos no Android Studio antes da entrega.
-
-## 10. Links de entrega (preencher pela equipe)
-- **GitHub:** [INSERIR LINK PÚBLICO DO REPOSITÓRIO]
-- **Vídeo pitch (YouTube público; até 5 minutos):** [INSERIR LINK]
-
-O vídeo deve apresentar integrantes, problema, proposta, arquitetura e demonstração do aplicativo em funcionamento, dedicando ao menos metade do tempo ao software e infraestrutura, conforme orientações da GS.
-
-## 11. Limitações
-- O MVP exibe cinco cidades predefinidas; não realiza geolocalização.
-- Consulta depende de conexão com internet e disponibilidade da API.
-- Não envia notificações push, não detecta enchentes e não substitui orientações da Defesa Civil.
-- O projeto foi estruturado para Android Studio, mas **não foi compilado nem executado neste ambiente** por ausência de Android SDK/Gradle; valide o build no Android Studio antes de submeter.
